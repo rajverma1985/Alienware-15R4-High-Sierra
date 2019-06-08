@@ -12,8 +12,8 @@ A vanilla setup implies that the OS itself remains relatively untouched - and th
 
 There's a number of terms you'll be seeing throughout this guide - I'll outline a few of them and their definitions here:
 
-* _Clover_ - this is the bootloader we'll be using.  Real macs have a custom firmware that allows them to boot macOS.  PC hardware needs a little help to get this working; Clover helps us achieve that.  It also handles kext injection, ACPI renames, kext patches, and a ton of other functions.
-* _Kexts_ - the word "kext" is actually the combination of **K**ernel **Ext**ension; and you can think of kexts simply as drivers for macOS.
+*_Clover_* - this is the bootloader we'll be using.  Real macs have a custom firmware that allows them to boot macOS.  PC hardware needs a little help to get this working; Clover helps us achieve that.  It also handles kext injection, ACPI renames, kext patches, and a ton of other functions.
+*_Kexts_* - the word "kext" is actually the combination of **K**ernel **Ext**ension; and you can think of kexts simply as drivers for macOS.
 * _Config.plist_ - this is the file that tells Clover what to do.  It's an XML formatted property list \(looks very similar to HTML\) and is one of the most important parts of setting up your Hackintosh.
 
 
@@ -22,12 +22,12 @@ There's a number of terms you'll be seeing throughout this guide - I'll outline 
 This guide focuses Alienware 15r4 gsyc LAPTOP _ONLY_. There are other guides out there for laptops \(see [RehabMan's guide](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) at TMac\) - but they're often _much more specific_ than this guide will be.
 
 
-_(Assuming you already have 8gb or bugger USB drive.)_
+_(Assuming you already have 8gb or bigger USB drive.)_
 
 1. Vanilla image of High Sierra 10.13.6 (You can download this from various sources, i would strongly suggest use a working mac and download it from
 the apple store as it will untouched and clean image.
 
-_NOTE_: * (Please do not share or ask questions on pirates copies of software, it will not be entertained.)
+**_NOTE_: * (Please do not share or ask questions on pirates copies of software, it will not be entertained.)**
 
 2. Clover Bootloader (ref to clover.zip)
 3. Clover Configurator(ref to clover.zip)
