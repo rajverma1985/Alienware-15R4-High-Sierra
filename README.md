@@ -12,9 +12,9 @@ A vanilla setup implies that the OS itself remains relatively untouched - and th
 
 There's a number of terms you'll be seeing throughout this guide - I'll outline a few of them and their definitions here:
 
-*_Clover_* - this is the bootloader we'll be using.  Real macs have a custom firmware that allows them to boot macOS.  PC hardware needs a little help to get this working; Clover helps us achieve that.  It also handles kext injection, ACPI renames, kext patches, and a ton of other functions.
-*_Kexts_* - the word "kext" is actually the combination of **K**ernel **Ext**ension; and you can think of kexts simply as drivers for macOS.
-* _Config.plist_ - this is the file that tells Clover what to do.  It's an XML formatted property list \(looks very similar to HTML\) and is one of the most important parts of setting up your Hackintosh.
+**_Clover_** - this is the bootloader we'll be using.  Real macs have a custom firmware that allows them to boot macOS.  PC hardware needs a little help to get this working; Clover helps us achieve that.  It also handles kext injection, ACPI renames, kext patches, and a ton of other functions.
+**_Kexts_** - the word "kext" is actually the combination of **K**ernel **Ext**ension; and you can think of kexts simply as drivers for macOS.
+**_Config.plist_** - this is the file that tells Clover what to do.  It's an XML formatted property list \(looks very similar to HTML\) and is one of the most important parts of setting up your Hackintosh.
 
 
 ## PreRequisites
@@ -22,37 +22,35 @@ There's a number of terms you'll be seeing throughout this guide - I'll outline 
 This guide focuses Alienware 15r4 gsyc LAPTOP _ONLY_. There are other guides out there for laptops \(see [RehabMan's guide](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) at TMac\) - but they're often _much more specific_ than this guide will be.
 
 
-_(Assuming you already have 8gb or bigger USB drive.)_
+**_(Assuming you already have 8gb or bigger USB drive.)_**
+**_NOTE_:** (Please do not share or ask questions on pirated copies of the software, it will not be entertained.)
 
 1. Vanilla image of High Sierra 10.13.6 (You can download this from various sources, i would strongly suggest use a working mac and download it from
 the apple store as it will untouched and clean image.
-
-**_NOTE_: * (Please do not share or ask questions on pirates copies of software, it will not be entertained.)**
-
 2. Clover Bootloader (ref to clover.zip)
 3. Clover Configurator(ref to clover.zip)
 4. All the required kexts(Pre and POST ref to the zip file "Working_clover_aw15r4_gsyc.zip")
 5. Some basic software post install, i.e BOOM3D for audio, Atom for text edits etc.(optional)
 
 
-Instructions:
+**Instructions:**
 
-* -- _Creating a bootable drive from the downloaded image_:
+**_Creating a bootable drive from the downloaded image_:**
 
 1. For creating a bootable drive just use the below command, make sure the USB is plugged into the mac hardware(you can also use a VM but at time it corrupts the install and there is no surety if it will work)
 2. Now go ahead and open up the terminal and use the below command:
 
-* sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+**sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume**
 
-Where MyVolume is the name of the USB drive(formatted on a MAC, if not formatted you need to go to the disk utility and format it as MACOS Extended Journaled).
+_Where MyVolume is the name of the USB drive(formatted on a MAC, if not formatted you need to go to the disk utility and format it as MACOS Extended Journaled)._
 
 3. Now step 2 takes around 10 to 15 min depending upon your hardware.
 4. Once the bootable drive is created successfully, please make sure these options are enabled in the BIOS:
 
-  -- SATA operation under ADVANCED tab should be on AHCI and NOT RAID.
-  -- sometime VT causes an issue on Alienware so disable it as well, you can try and re-enable it later after the install is finished.
+  - SATA operation under ADVANCED tab should be on AHCI and NOT RAID.
+  - sometime VT causes an issue on Alienware so disable it as well, you can try and re-enable it later after the install is         finished.
 
-5. Once the bios settings are done, please go ahead and restart the system with USB drive plugged on the USB 2.0 port(LEFT side port next to the headphone jack) IMP: DO NOT use the right side USB port for installs and make sure if you have any other devices plugged into the right USB, unplug them.
+  - Once the bios settings are done, please go ahead and restart the system with USB drive plugged on the USB 2.0 port(LEFT  side  port next to the headphone jack) IMP: DO NOT use the right side USB port for installs and make sure if you have any other devices plugged into the right USB, unplug them.
 
 5. Now boot with f12, and then choose the USB drive to boot from.
 6. Choose the option to boot from Install Mac OS sierra(USB drive)
@@ -64,7 +62,7 @@ Where MyVolume is the name of the USB drive(formatted on a MAC, if not formatted
 12. Now go ahead and close the disk utility, you will see the option to Install mac OS. choose it and follow the instructions(basically next>>next).
 13. Once the install completes, the system will reboot. Here is the MOST IMPORTANT step for HIGH SIERRA, we have to disable or STOP the disk conversion to AFPS and the reason is you will face difficulties later on with the updates etc. on HIGH SIERRA.
 
-* _Repeat Boot OS X Install from Install macOS High Sierra_
+**_Repeat Boot OS X Install from Install macOS High Sierra_
 
 1. Through the Clover Menu select Boot OS X Install from Install macOS High Sierra like you normally would for the first part of the installer.
 Go through the steps to start the Installer after it finishes loading up.
