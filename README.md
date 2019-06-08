@@ -64,7 +64,7 @@ Where MyVolume is the name of the USB drive(formatted on a MAC, if not formatted
 12. Now go ahead and close the disk utility, you will see the option to Install mac OS. choose it and follow the instructions(basically next>>next).
 13. Once the install completes, the system will reboot. Here is the MOST IMPORTANT step for HIGH SIERRA, we have to disable or STOP the disk conversion to AFPS and the reason is you will face difficulties later on with the updates etc. on HIGH SIERRA.
 
->>>> * _Repeat Boot OS X Install from Install macOS High Sierra_
+* _Repeat Boot OS X Install from Install macOS High Sierra_
 
 1. Through the Clover Menu select Boot OS X Install from Install macOS High Sierra like you normally would for the first part of the installer.
 Go through the steps to start the Installer after it finishes loading up.
