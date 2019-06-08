@@ -33,7 +33,7 @@ the apple store as it will untouched and clean image.
 5. Some basic software post install, i.e BOOM3D for audio, Atom for text edits etc.(optional)
 
 
-**Instructions:**
+## **Instructions:**
 
 **_Creating a bootable drive from the downloaded image_:**
 
