@@ -130,6 +130,8 @@ POST configs:
 3. copy the contents of POST install from the working clover in this repo and paste them into /Library/Extensions/
 4. Once copied, go ahead and run the kext utility to update the cache, kext utility can be downloaded from different source. Make sure you use ethernet for now to connect to the internet.
 5. You can freely use a external dongle like I do for wireless, TP-LINK 725W. Works just fine.
+ADDITON:
+6. Bought Dell DW1560 added BRCM kexts and it wi-fi works out of the box!
 
 
 Feel free to let me know in case you have any questions.
