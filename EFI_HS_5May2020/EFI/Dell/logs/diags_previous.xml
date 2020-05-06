@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>261</LogNumber>
-    <LogTimeStamp>05/05/2020 14:47:57</LogTimeStamp>
+    <LogNumber>256</LogNumber>
+    <LogTimeStamp>04/11/2020 19:48:40</LogTimeStamp>
     <ePSA_Data>
-      <Result>Pass</Result>
+      <Result>Abort</Result>
       <ReturnCode>BOOT_HOST_OS</ReturnCode>
       <DevicesTested>Memory, Hard Drive</DevicesTested>
-      <LogData>
-        <ePSALogTimeStamp>05/05/2020 14:47:53</ePSALogTimeStamp>
-        <ePSAVersion>4306.15</ePSAVersion>
-        <ErrorCode>2000:0000</ErrorCode>
-        <ValidationCode>103688</ValidationCode>
-        <ErrorMessage><![CDATA[ePSA quick test pass]]></ErrorMessage>
-      </LogData>
-      <MemRxHealed>FALSE</MemRxHealed>
-      <ePSAInfo><![CDATA[serviceTag=BRT7SQ2&errCode=0000&ValCode=103688&uID=005B9]]></ePSAInfo>
       <ePSAFullVersion>4306.15</ePSAFullVersion>
       <ePSAInvocationCount>1</ePSAInvocationCount>
     </ePSA_Data>
