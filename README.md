@@ -137,15 +137,15 @@ ADDITON:
 Feel free to let me know in case you have any questions.
 
 **What Doesn't work ??**
-**_1. HDMI while boot, works well once the laptop is up and running_**
-**_2. Brightness slider and controls DO NOT work, Working on getting GSYNC panel brightness controls to work with Nvidia GPU_**
-**_3. Using the awesome brightness slider app for the same_**
+1. HDMI while boot, works well once the laptop is up and running
+2. Brightness slider and controls DO NOT work, Working on getting GSYNC panel brightness controls to work with Nvidia GPU
+3. Using the awesome brightness slider app for the same
 
 **What more works ??**
 
-**_>>. Thunderbolt works_**
-**_>>. HDMI audio works_**
-**_>>. Airdrop and BT with handoff_**
-**_>>. Facetime and Imessage_**
+>>. Thunderbolt works
+>>. HDMI audio works
+>>. Airdrop and BT with handoff
+>>. Facetime and Imessage
 
 **Author: Raj verma**
